@@ -8,7 +8,7 @@
 # -----------------------------------------------------------------------
 # Six user-defined quantities:
 #           Directory where the run is made (=directory of this file):
-set    drun=/data/coaticook1/sbgroup/synthesis/output
+set    drun=/user/bostroem/starburst99/output
 #           Name of input file:
 set  ninput=standard.input1
 #           Name and extension number of output files:
@@ -16,11 +16,11 @@ set  ninput=standard.input1
 set noutput=standard
 set    next=1
 #           Directory where code is:
-set   dcode=/data/coaticook1/sbgroup/synthesis
+set   dcode=/user/bostroem/starburst99
 #          Name of code: 
 set   ncode=galaxy
 #           Directory where libraries are:
-set   dlib=/data/coaticook1/sbgroup/synthesis
+set   dlib=/user/bostroem/starburst99
 #- - - - - - - DO NOT MODIFY below this line - - - - - - - - - - - - - -
 
 cd $drun
